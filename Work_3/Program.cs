@@ -20,4 +20,4 @@ Console.WriteLine ($"Координаты второй точки: ({Ya},{Yb}) "
 
 double distance = Math.Sqrt(Math.Pow(Xb-Xa,2) + Math.Pow(Yb-Ya,2));
 
-Console.WriteLine ($"Расстояние между двумя точками: {distance}");
+Console.WriteLine ($"Расстояние между двумя точками: {Math.Round(distance,2)}");
